@@ -41,6 +41,7 @@ in my case the command is looking like this:
 after accessing the air directory we can install it. Download the requirement.txt on the same folder as this guide and put it on path of your air( in my case C:\Users\Berk\Documents\adversarial-robustness-toolbox). Replace the files if asked. Run the command below:
 
 *pip install -r requirements.txtpip install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html*
+
 *pip install .*
 
 # STEP-4 ( Running the Examples)
