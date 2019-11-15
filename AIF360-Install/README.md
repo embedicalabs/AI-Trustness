@@ -2,9 +2,9 @@
 
 # BEFORE START
 You can use automated installation if you want. If you want automated install follow these steps:
--download “aif360-install.bat” and “requirements.txt” file from this folder
+- download “aif360-install.bat” and “requirements.txt” file from this folder
 - put them on anywhere you want. make sure they are on same folder.
--run the “aif360-install.bat” file.
+- run the “aif360-install.bat” file.
 - Its done! now you can use anaconda navigator to access that environment which named aif
 
 if you want to install it manually, you can start with step-1. Good luck!

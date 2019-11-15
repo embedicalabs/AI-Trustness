@@ -3,9 +3,9 @@
 # BEFORE START
 
 You can use automated installation if you want. If you want automated install follow these steps:
--download “aix360-install.bat”
+- download “aix360-install.bat”
 - put them on anywhere you want. make sure they are on same folder.
--run the “aix360-install.bat” file.
+- run the “aix360-install.bat” file.
 - Its done! now you can use anaconda navigator to access that environment which named aix
 
 if you want to install it manually, you can start with step-1. Good luck!
@@ -50,7 +50,6 @@ After installing torch now we will install another library. Run that command on 
 
 now we can install aix360. First check for the path of aix360. In my case, path of aix360 is C:\Users\Berk\Documents\AIX360
 
-
 so now change the directory on the terminal with this command:
 *cd “path of your aix360”*
 
@@ -64,6 +63,7 @@ after accessing the aix360 directory we can install it. Run the command below:
 # STEP-4 ( Extra Libraries and Jupyter Notebook or Lab)
 
 Let’s start. Now run these commands below on the terminal one line at a time
+
 *conda install -c conda-forge jupyterlab*
 
 *conda install -c conda-forge ipywidgets*

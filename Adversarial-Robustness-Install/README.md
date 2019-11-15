@@ -3,9 +3,9 @@
 beforehand air(AI robustness) stands for adversarial robustness. this way it is easiear to write. *laziness*
 # BEFORE START
 You can use automated installation if you want. If you want automated install follow these steps:
--download “air-install.bat” and “requirements.txt” file from this github folder
+- download “air-install.bat” and “requirements.txt” file from this github folder
 - put them on anywhere you want. make sure they are on same folder.
--run the “air-install.bat” file.
+- run the “air-install.bat” file.
 - Its done! now you can use anaconda navigator to access that environment which named air
 
 if you want to install it manually, you can start with step-1. Good luck!
