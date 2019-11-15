@@ -41,7 +41,9 @@ in my case the command is looking like this:
 after accessing the air directory we can install it. Download the requirement.txt on the same folder as this guide and put it on path of your air( in my case C:\Users\Berk\Documents\AIF360). Replace the files if asked. Run the command below:
 
 *pip install -e .*
+
 *pip install -r requirements.txt*
+
 *conda install pytorch-cpu torchvision-cpu -c pytorch*
 
 
