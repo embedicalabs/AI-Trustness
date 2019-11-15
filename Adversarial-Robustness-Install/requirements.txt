@@ -1,0 +1,17 @@
+matplotlib
+six
+scikit-learn
+keras==2.2.5
+h5py
+mxnet
+Pillow
+numpy<1.17.0
+requests<2.19.0
+tensorflow==1.14
+xgboost
+lightgbm
+GPy
+SciPy
+# Comment out because of compatibility issues with numpy versions
+# catboost
+statsmodels
