@@ -65,7 +65,10 @@ after accessing the aix360 directory we can install it. Run the command below:
 
 Let’s start. Now run these commands below on the terminal one line at a time
 *conda install -c conda-forge jupyterlab*
+
 *conda install -c conda-forge ipywidgets*
+
 *conda install scipy=1.2.1*
+
 now you can open up the anaconda navigator and on the left side come to the environments then select the aix360 environment. After that come to the dashboard and open the jupyter lab. Now you can work on jupyter lab in aix360 environment. Also, if you want, you can install the jupyter notebook on the dashboard after you select the aix360 environment.
 
