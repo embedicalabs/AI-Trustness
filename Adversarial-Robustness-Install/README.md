@@ -19,11 +19,11 @@ after this we need to create a new environment and work on that environment.
 # STEP-2 ( Creating New Environment)
 now open the anaconda terminal and run this command:
 
-conda create --name air python=3.6
+*conda create --name air python=3.6*
 
 this command will create a new environment with python 3.6.9.
 after that activate that environment with the following code:
-conda activate air
+*conda activate air*
 
 you will see (air) at the beginning of the command line when you are in the environment
 !! Important !!: make sure that you are in air environment when you are playing with air or adding new libraries to it
@@ -33,28 +33,27 @@ you will see (air) at the beginning of the command line when you are in the envi
 now we can install air. First check for the path of air. In my case, path of air is C:\Users\Berk\Documents\adversarial-robustness-toolbox
 
 so now change the directory on the terminal with this command:
-cd “path of your air”
+*cd “path of your air”*
 
 in my case the command is looking like this:
-cd C:\Users\Berk\Documents\adversarial-robustness-toolbox
+*cd C:\Users\Berk\Documents\adversarial-robustness-toolbox*
 
 after accessing the air directory we can install it. Download the requirement.txt on the same folder as this guide and put it on path of your air( in my case C:\Users\Berk\Documents\adversarial-robustness-toolbox). Replace the files if asked. Run the command below:
 
-pip in
-stall -r requirements.txtpip install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
-pip install .
+*pip install -r requirements.txtpip install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html*
+*pip install .*
 
 # STEP-4 ( Running the Examples)
 
 You can see the notebooks folder on the air directory. in that folder you can use jupyter notebook or lab. but the examples folder contains different type of python file. If you want to run these, just follow the steps below.
 so running these codes is different from the others.Lets run an examples. first change directory on terminal to examples
 
-cd “path of your air examples”
+*cd “path of your air examples”*
 
 in my case it looks like these:
-cd C:\Users\Berk\Documents\adversarial-robustness-toolbox\examples
+*cd C:\Users\Berk\Documents\adversarial-robustness-toolbox\examples*
 
 now after changing directory we can run these examples. Type these commands on the terminal to run an example. you can change get_started_xgboost.py with another example but keep in mind that you need to add “.py” after the name of the files. Also keep in mind that you need to be inside of air environment
 
-python get_started_xgboost.py
+*python get_started_xgboost.py*
 
