@@ -1,5 +1,6 @@
 set crpath=%CD%
-FOR /F "tokens=3* skip=2" %%a in ('reg query "HKEY_CURRENT_USER\Software\Python\ContinuumAnalytics\Anaconda37-64\InstallPath" /ve') DO set regpath=%%a
+for /f "tokens=2*" %%a in ('REG QUERY "HKEY_CURRENT_USER\Software\Python\ContinuumAnalytics\Anaconda37-64\InstallPath" /ve') do set "regpath=%%~b"
+@RD /S /Q "%regpath%\envs\air"
 bitsadmin /transfer MyJob /priority FOREGROUND "https://github.com/IBM/adversarial-robustness-toolbox/archive/master.zip" "C:\Users\%USERNAME%\Downloads\air.zip"
 powershell.exe -NoP -NonI -Command "Expand-Archive 'C:\Users\%USERNAME%\Downloads\air.zip' '%crpath%'"
 call %regpath%\Scripts\activate.bat %regpath%
