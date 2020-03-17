@@ -3,3 +3,4 @@ This repository is for creating environment for IBM's AI trustness projects such
 
 # Warning
 The automated batch files are just for Windows 10.
+You also need to have anaconda on your machine before installing these
