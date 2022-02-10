@@ -7,7 +7,7 @@ mxnet
 Pillow
 numpy<1.17.0
 requests<2.19.0
-tensorflow==1.14
+tensorflow==2.5.3
 xgboost
 lightgbm
 GPy
